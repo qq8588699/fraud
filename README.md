@@ -1,5 +1,9 @@
 # fraud
 
+python version: latest anaconda distribution as of 12/22/2018. 
+Python 3.6.7 |Anaconda, Inc.| (default, Oct 23 2018, 19:16:44) 
+[GCC 7.3.0] on linux
+
 To run on command line 
 git config user.name "YOUR_NAME"
 git config user.email "pengzhou2011@gmail.com"
@@ -19,3 +23,8 @@ Basic Structure of Project:
 ./pgm: contains the source codes which form the project pipeline. Each phase(script) is labeled by an integer number. The output should go to the corresponding dir with the same integer number in ./resource/
 ./pgm/.resource is the softlink to resource
 We only commit source code (./pgm/) into git. We don't commit real data to git (too large). We can commit small outputs in ./resource/ though.
+./notes: We updates our thoughts and project plans here. Try to keep things concise and organized.
+
+Uncommitted files:
+Softlinks are not commited
+./resource/000_rawData/[train.csv,test.csv,sample_submission.csv]
